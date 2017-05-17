@@ -3,11 +3,12 @@ $(document).ready(function(){
     $(".container").load("members.html"); 
   });
 
-  $("#contact").click(function(){ 
-    $(".container").load("contact.html"); 
+  $("#events").click(function(){ 
+    $(".container").load("events.html"); 
   });
 
   $("#about").click(function(){ 
     $(".container").load("about.html"); 
   });
+
 });
