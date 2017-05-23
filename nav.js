@@ -1,7 +1,17 @@
 $(document).ready(function(){
-  $("#members").click(function(){ 
-    $(".container").load("members.html"); 
+  $(".container").load("about.html"); 
+
+  $("#members").click(function() {
+    $.ajax({
+      url: "./members/members.json",
+      dataType: "json",
+      success: function(data) {
+        var template = document.getElementById('membersTemplate').innerHTML;
+        document.getElementById("page").innerHTML = Mustache.render(template, data);
+      }
+    });  
   });
+
 
   $("#events").click(function(){ 
     $(".container").load("events.html"); 
@@ -9,6 +19,10 @@ $(document).ready(function(){
 
   $("#about").click(function(){ 
     $(".container").load("about.html"); 
+  });
+
+  $("#auditions").click(function(){ 
+    $(".container").load("auditions.html"); 
   });
 
 });

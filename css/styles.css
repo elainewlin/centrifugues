@@ -9,7 +9,11 @@ html {
 .link {
     color: #B29600;
     font-size: 3vh;
-    margin: 4vw;
+    margin: 3vw;
+}
+
+a {
+    color: #B29600;
 }
 
 a:hover {
@@ -22,10 +26,18 @@ a:hover {
     padding: 6vh;
 }
 
+.face {
+    height: 200px;
+}
+
 #logo {
     height: 16vh;
 }
 
 .navbar {
     background-color: black;
+}
+
+.event {
+    padding: 10px;
 }
