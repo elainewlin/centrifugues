@@ -1,4 +1,4 @@
-
+<!--#include file="header.shtml" -->
 <div class="col-xs-6">
     <h1>Events</h1>
 
@@ -21,3 +21,4 @@
         <p>We have a fall and spring concert every year. Come join us for funny skits and good music.</p>
     </div>
 </div>
+<!--#include file="footer.shtml" -->

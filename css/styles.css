@@ -28,7 +28,10 @@ a:hover {
 
 .face {
     height: 200px;
+    width: auto;
+    border-radius: 10px;
 }
+
 
 #logo {
     height: 16vh;
@@ -41,3 +44,5 @@ a:hover {
 .event {
     padding: 10px;
 }
+
+

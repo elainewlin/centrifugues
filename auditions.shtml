@@ -1,3 +1,4 @@
+<!--#include file="header.shtml" -->
 <h1>Auditions</h1>
 <b>When can I audition?</b>
 <p>We hold auditions for new members every fall semester and sometimes in the spring. We encourage anyone who is MIT-affiliated to audition, no musical training needed. </p>
@@ -16,3 +17,5 @@
 <br />
 
 <p>If you have any questions or concerns, feel free to <a href="mailto:centrifugues-exec@mit.edu">email us</a>.
+
+<!--#include file="footer.shtml" -->
